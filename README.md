@@ -1,1 +1,2 @@
-Slack Clone with ReactJS & Firebase
+Slack Clone made with React & Firebase
+
