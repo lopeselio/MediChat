@@ -1,1 +1,1 @@
-Slack Clone with ReactJS & Firebase
+Slack Clone with ReactJS, Redux, React-Semantic-UI, web-Sockets & Firebase
