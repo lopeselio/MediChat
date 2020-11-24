@@ -48,7 +48,7 @@ class UserPanel extends React.Component {
     const { storageRef, userRef, blob, metadata } = this.state;
 
     storageRef
-      .child(`avatars/user-${userRef.uid}`)
+      .child(`avatars/user/${userRef.uid}`)
       .put(blob, metadata)
       .then(snap => {
         snap.ref.getDownloadURL().then(downloadURL => {
@@ -124,8 +124,8 @@ class UserPanel extends React.Component {
           <Grid.Row style={{ padding: "1.2em", margin: 0 }}>
             {/* App Header */}
             <Header inverted floated="left" as="h2">
-              <Icon name="code" />
-              <Header.Content>DevChat</Header.Content>
+              <Icon name="user md" />
+              <Header.Content>MediChat</Header.Content>
             </Header>
 
             {/* User Dropdown  */}
