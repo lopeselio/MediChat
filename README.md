@@ -11,7 +11,7 @@ Visit: https://react-slack-34e14.web.app/
 - star your favorite channels
 - Change your avatar and also see if the user are available(online) for chat.
 - See message timestamp and elapsed time of conversation
-- Auto scroll to see newest conversations
+- Auto scroll using Search feature to see and previous messages, newest conversations
 - ***support for patients with Color Blindness** : Our UI also allows patients to change the primary and secondary UI colors so that they can clearly distinguish between the elements present in the UI and choose an interface with colors friendly to the eye.
 
 ### What we are looking to implement:
